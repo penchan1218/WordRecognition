@@ -15,6 +15,16 @@
 		BB135D701BEDEB4300D50236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB135D6E1BEDEB4300D50236 /* LaunchScreen.storyboard */; };
 		BB135D7B1BEDEB4300D50236 /* WordRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135D7A1BEDEB4300D50236 /* WordRecognitionTests.m */; };
 		BB135D861BEDEB4300D50236 /* WordRecognitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135D851BEDEB4300D50236 /* WordRecognitionUITests.m */; };
+		BB135D941BEDEB6800D50236 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB135D931BEDEB6800D50236 /* opencv2.framework */; };
+		BB135D971BEDEB7D00D50236 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB135D961BEDEB7D00D50236 /* AssetsLibrary.framework */; };
+		BB135DA91BEDEBC300D50236 /* Auth.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135D9C1BEDEBC300D50236 /* Auth.m */; };
+		BB135DAA1BEDEBC300D50236 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135D9E1BEDEBC300D50236 /* NSData+Base64.m */; };
+		BB135DAB1BEDEBC300D50236 /* TXQcloudFrSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135DA01BEDEBC300D50236 /* TXQcloudFrSDK.m */; };
+		BB135DAC1BEDEBC300D50236 /* YTConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135DA21BEDEBC300D50236 /* YTConfig.m */; };
+		BB135DAD1BEDEBC300D50236 /* YTOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135DA51BEDEBC300D50236 /* YTOperations.m */; };
+		BB135DAE1BEDEBC300D50236 /* YTTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135DA81BEDEBC300D50236 /* YTTagModel.m */; };
+		BB135DB21BEDEBFB00D50236 /* PickImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135DB11BEDEBFB00D50236 /* PickImageViewController.m */; };
+		BB135DB61BEDEC2900D50236 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB135DB51BEDEC2900D50236 /* UIImage+OpenCV.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		BB135D811BEDEB4300D50236 /* WordRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB135D851BEDEB4300D50236 /* WordRecognitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordRecognitionUITests.m; sourceTree = "<group>"; };
 		BB135D871BEDEB4300D50236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB135D931BEDEB6800D50236 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		BB135D961BEDEB7D00D50236 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BB135D991BEDEB9900D50236 /* WordRecognition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordRecognition-Prefix.pch"; sourceTree = "<group>"; };
+		BB135D9B1BEDEBC300D50236 /* Auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Auth.h; sourceTree = "<group>"; };
+		BB135D9C1BEDEBC300D50236 /* Auth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Auth.m; sourceTree = "<group>"; };
+		BB135D9D1BEDEBC300D50236 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		BB135D9E1BEDEBC300D50236 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		BB135D9F1BEDEBC300D50236 /* TXQcloudFrSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXQcloudFrSDK.h; sourceTree = "<group>"; };
+		BB135DA01BEDEBC300D50236 /* TXQcloudFrSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXQcloudFrSDK.m; sourceTree = "<group>"; };
+		BB135DA11BEDEBC300D50236 /* YTConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTConfig.h; sourceTree = "<group>"; };
+		BB135DA21BEDEBC300D50236 /* YTConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTConfig.m; sourceTree = "<group>"; };
+		BB135DA41BEDEBC300D50236 /* YTOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTOperations.h; sourceTree = "<group>"; };
+		BB135DA51BEDEBC300D50236 /* YTOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTOperations.m; sourceTree = "<group>"; };
+		BB135DA61BEDEBC300D50236 /* YTResponseKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTResponseKeys.h; sourceTree = "<group>"; };
+		BB135DA71BEDEBC300D50236 /* YTTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTagModel.h; sourceTree = "<group>"; };
+		BB135DA81BEDEBC300D50236 /* YTTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTTagModel.m; sourceTree = "<group>"; };
+		BB135DB01BEDEBFB00D50236 /* PickImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickImageViewController.h; sourceTree = "<group>"; };
+		BB135DB11BEDEBFB00D50236 /* PickImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickImageViewController.m; sourceTree = "<group>"; };
+		BB135DB41BEDEC2900D50236 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		BB135DB51BEDEC2900D50236 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB135D971BEDEB7D00D50236 /* AssetsLibrary.framework in Frameworks */,
+				BB135D941BEDEB6800D50236 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +113,7 @@
 		BB135D541BEDEB4300D50236 = {
 			isa = PBXGroup;
 			children = (
+				BB135D951BEDEB6C00D50236 /* Frameworks */,
 				BB135D5F1BEDEB4300D50236 /* WordRecognition */,
 				BB135D791BEDEB4300D50236 /* WordRecognitionTests */,
 				BB135D841BEDEB4300D50236 /* WordRecognitionUITests */,
@@ -101,6 +134,10 @@
 		BB135D5F1BEDEB4300D50236 /* WordRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				BB135DB31BEDEC1000D50236 /* Categories */,
+				BB135DAF1BEDEBD500D50236 /* BaseClasses */,
+				BB135D9A1BEDEBC300D50236 /* Youtu */,
+				BB135DA31BEDEBC300D50236 /* YoutuExtensions */,
 				BB135D631BEDEB4300D50236 /* AppDelegate.h */,
 				BB135D641BEDEB4300D50236 /* AppDelegate.m */,
 				BB135D661BEDEB4300D50236 /* ViewController.h */,
@@ -109,6 +146,7 @@
 				BB135D6C1BEDEB4300D50236 /* Assets.xcassets */,
 				BB135D6E1BEDEB4300D50236 /* LaunchScreen.storyboard */,
 				BB135D711BEDEB4300D50236 /* Info.plist */,
+				BB135D991BEDEB9900D50236 /* WordRecognition-Prefix.pch */,
 				BB135D601BEDEB4300D50236 /* Supporting Files */,
 			);
 			path = WordRecognition;
@@ -138,6 +176,60 @@
 				BB135D871BEDEB4300D50236 /* Info.plist */,
 			);
 			path = WordRecognitionUITests;
+			sourceTree = "<group>";
+		};
+		BB135D951BEDEB6C00D50236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB135D961BEDEB7D00D50236 /* AssetsLibrary.framework */,
+				BB135D931BEDEB6800D50236 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB135D9A1BEDEBC300D50236 /* Youtu */ = {
+			isa = PBXGroup;
+			children = (
+				BB135D9B1BEDEBC300D50236 /* Auth.h */,
+				BB135D9C1BEDEBC300D50236 /* Auth.m */,
+				BB135D9D1BEDEBC300D50236 /* NSData+Base64.h */,
+				BB135D9E1BEDEBC300D50236 /* NSData+Base64.m */,
+				BB135D9F1BEDEBC300D50236 /* TXQcloudFrSDK.h */,
+				BB135DA01BEDEBC300D50236 /* TXQcloudFrSDK.m */,
+				BB135DA11BEDEBC300D50236 /* YTConfig.h */,
+				BB135DA21BEDEBC300D50236 /* YTConfig.m */,
+			);
+			path = Youtu;
+			sourceTree = "<group>";
+		};
+		BB135DA31BEDEBC300D50236 /* YoutuExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				BB135DA41BEDEBC300D50236 /* YTOperations.h */,
+				BB135DA51BEDEBC300D50236 /* YTOperations.m */,
+				BB135DA61BEDEBC300D50236 /* YTResponseKeys.h */,
+				BB135DA71BEDEBC300D50236 /* YTTagModel.h */,
+				BB135DA81BEDEBC300D50236 /* YTTagModel.m */,
+			);
+			path = YoutuExtensions;
+			sourceTree = "<group>";
+		};
+		BB135DAF1BEDEBD500D50236 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BB135DB01BEDEBFB00D50236 /* PickImageViewController.h */,
+				BB135DB11BEDEBFB00D50236 /* PickImageViewController.m */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		BB135DB31BEDEC1000D50236 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BB135DB41BEDEC2900D50236 /* UIImage+OpenCV.h */,
+				BB135DB51BEDEC2900D50236 /* UIImage+OpenCV.mm */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +364,15 @@
 			files = (
 				BB135D681BEDEB4300D50236 /* ViewController.m in Sources */,
 				BB135D651BEDEB4300D50236 /* AppDelegate.m in Sources */,
+				BB135DAD1BEDEBC300D50236 /* YTOperations.m in Sources */,
+				BB135DAC1BEDEBC300D50236 /* YTConfig.m in Sources */,
+				BB135DAA1BEDEBC300D50236 /* NSData+Base64.m in Sources */,
+				BB135DAE1BEDEBC300D50236 /* YTTagModel.m in Sources */,
 				BB135D621BEDEB4300D50236 /* main.m in Sources */,
+				BB135DAB1BEDEBC300D50236 /* TXQcloudFrSDK.m in Sources */,
+				BB135DA91BEDEBC300D50236 /* Auth.m in Sources */,
+				BB135DB21BEDEBFB00D50236 /* PickImageViewController.m in Sources */,
+				BB135DB61BEDEC2900D50236 /* UIImage+OpenCV.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +511,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "WordRecognition/WordRecognition-Prefix.pch";
 				INFOPLIST_FILE = WordRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hustunique.WordRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +529,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "WordRecognition/WordRecognition-Prefix.pch";
 				INFOPLIST_FILE = WordRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hustunique.WordRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
