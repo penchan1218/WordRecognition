@@ -32,14 +32,14 @@ static NSString * const YoudaoKeyFrom      = @"WordRecognition";
     return __shared;
 }
 
-+ (void)translate2English:(NSString *)word ok:(void (^)(NSString *english, NSError *error))block
++ (NSURLSessionDataTask *)translate2English:(NSString *)word ok:(void (^)(NSString *english, NSError *error))block
 {
     if (!word) {
-        return ;
+        return nil;
     }
     
     NSURL *url = [NSURL URLWithString:[[NSString stringWithFormat:@"%@?keyfrom=%@&key=%@&type=data&doctype=json&version=1.1&q=%@", YoudaoTranslateAPI, YoudaoKeyFrom, YoudaoAPIKey, word] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
-    [[[self sharedSession] dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+    NSURLSessionDataTask *task = [[self sharedSession] dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         NSString *english = nil;
         if (data) {
             NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
@@ -51,7 +51,9 @@ static NSString * const YoudaoKeyFrom      = @"WordRecognition";
         dispatch_async(dispatch_get_main_queue(), ^{
             block(english, error);
         });
-    }] resume];
+    }];
+    [task resume];
+    return task;
 }
 
 @end

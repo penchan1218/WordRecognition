@@ -25,4 +25,13 @@
  */
 + (NSArray *)orderedTAGsWithRawArray:(NSArray *)rawArray;
 
+/**
+ *  置信度最高的TAG
+ *
+ *  @param rawArray <#rawArray description#>
+ *
+ *  @return <#return value description#>
+ */
++ (YTTagModel *)mostPossibleTAG:(NSArray *)orderedArray;
+
 @end

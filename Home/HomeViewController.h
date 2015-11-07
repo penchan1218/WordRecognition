@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  HomeViewController.h
 //  WordRecognition
 //
-//  Created by 陈颖鹏 on 15/11/7.
+//  Created by 陈颖鹏 on 15/11/8.
 //  Copyright © 2015年 陈颖鹏. All rights reserved.
 //
 
 #import "PickImageViewController.h"
 
-@interface ViewController : PickImageViewController
-
+@interface HomeViewController : PickImageViewController
 
 @end
-

@@ -1,18 +1,17 @@
 //
-//  CardViewController.m
+//  CardView.m
 //  WordRecognition
 //
-//  Created by 陈颖鹏 on 15/11/7.
+//  Created by 陈颖鹏 on 15/11/8.
 //  Copyright © 2015年 陈颖鹏. All rights reserved.
 //
 
-#import "CardViewController.h"
+#import "CardView.h"
 
 #import "NetworkManager.h"
-
 #import "NSString+Process.h"
 
-@interface CardViewController ()
+@interface CardView ()
 
 @property (nonatomic, strong) NSMutableArray *array_pinyin;
 @property (nonatomic, strong) NSMutableArray *array_name;
@@ -23,24 +22,16 @@
 
 @end
 
-@implementation CardViewController
+@implementation CardView
 
-- (id)initWithName:(NSString *)name
+- (id)initWithFrame:(CGRect)frame
 {
-    self = [super init];
+    self = [super initWithFrame:frame];
     if (self) {
-        self.name = name;
+        [self setupUI];
     }
     
     return self;
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    // 初始化UI
-    [self setupUI];
 }
 
 - (void)setupUI
@@ -49,22 +40,22 @@
     UIImageView *imgView_bg = [[UIImageView alloc] init];
     imgView_bg.contentMode = UIViewContentModeScaleAspectFill;
     imgView_bg.image = [UIImage imageNamed:@"img_card_bg"];
-    [self.view addSubview:imgView_bg];
+    [self addSubview:imgView_bg];
     self.imgView_bg = imgView_bg;
     
     [imgView_bg mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.view);
+        make.edges.equalTo(self);
     }];
     
     // 识别的图片
     UIImageView *imgView_staff = [[UIImageView alloc] init];
     imgView_staff.contentMode = UIViewContentModeScaleToFill;
-    [self.view addSubview:imgView_staff];
+    [self addSubview:imgView_staff];
     self.imgView_staff = imgView_staff;
     
     [imgView_staff mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(imgView_staff.superview).offset(213);
-        make.centerX.equalTo(imgView_staff.superview);
+        make.top.equalTo(self).offset(213);
+        make.centerX.equalTo(self);
         make.size.mas_equalTo(CGSizeMake(300, 400));
     }];
 }
@@ -74,22 +65,15 @@
     UILabel *label = [[UILabel alloc] init];
     label.font = [UIFont systemFontOfSize:fontSize];
     label.textAlignment = NSTextAlignmentCenter;
-    [self.view addSubview:label];
+    [self addSubview:label];
     
     return label;
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - getter and setter
 
 - (void)setName:(NSString *)name
 {
-    [self clearAllContents];
-    
     _name = [name copy];
     
     if (name.length > 0) {
@@ -213,21 +197,6 @@
             lastLabel = label;
         }
     }
-}
-
-- (void)clearAllContents
-{
-    for (UILabel *lbl_name in self.array_name) {
-        lbl_name.text = nil;
-        lbl_name.frame = CGRectZero;
-    }
-    for (UILabel *lbl_pinyin in self.array_pinyin) {
-        lbl_pinyin.text = nil;
-        lbl_pinyin.frame = CGRectZero;
-    }
-    
-    [self.task cancel];
-    self.lbl_english = nil;
 }
 
 @end

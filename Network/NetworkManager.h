@@ -22,7 +22,9 @@
  *
  *  @param word  <#word description#>
  *  @param block <#block description#>
+ *
+ *  @return <#return value description#>
  */
-+ (void)translate2English:(NSString *)word ok:(void (^)(NSString *english, NSError *error))block;
++ (NSURLSessionDataTask *)translate2English:(NSString *)word ok:(void (^)(NSString *english, NSError *error))block;
 
 @end

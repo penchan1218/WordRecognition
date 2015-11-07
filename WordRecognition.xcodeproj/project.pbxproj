@@ -40,6 +40,16 @@
 		BBB608E41BEE3D7100A9B194 /* UIView+FrameAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB608E31BEE3D7100A9B194 /* UIView+FrameAbout.m */; };
 		BBB608E71BEE485300A9B194 /* NSString+Process.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB608E61BEE485300A9B194 /* NSString+Process.m */; };
 		BBB608EB1BEE4E3A00A9B194 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB608EA1BEE4E3A00A9B194 /* NetworkManager.m */; };
+		BBB608EE1BEE579C00A9B194 /* LookThroughCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB608ED1BEE579C00A9B194 /* LookThroughCardViewController.m */; };
+		BBB97FA61BEE6FEB00CEBEB9 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB97FA51BEE6FEB00CEBEB9 /* UIImage+Resize.m */; };
+		BBB97FAA1BEE769800CEBEB9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB97FA91BEE769800CEBEB9 /* HomeViewController.m */; };
+		BBB97FAE1BEE7FBC00CEBEB9 /* EnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB97FAD1BEE7FBC00CEBEB9 /* EnterViewController.m */; };
+		BBB97FB11BEE871600CEBEB9 /* YQImagePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB97FB01BEE871600CEBEB9 /* YQImagePageViewController.m */; };
+		BBB97FB41BEE876B00CEBEB9 /* UIView+BGTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB97FB31BEE876B00CEBEB9 /* UIView+BGTouchView.m */; };
+		BBB97FB81BEE881000CEBEB9 /* YQNotificationPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB97FB71BEE881000CEBEB9 /* YQNotificationPoster.m */; };
+		BBB97FBA1BEE8A4C00CEBEB9 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB97FB91BEE8A4C00CEBEB9 /* SpriteKit.framework */; };
+		BBB97FBD1BEE8A8000CEBEB9 /* HomeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB97FBC1BEE8A8000CEBEB9 /* HomeScene.m */; };
+		BBB97FC01BEE912900CEBEB9 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB97FBF1BEE912900CEBEB9 /* CardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +142,25 @@
 		BBB608E61BEE485300A9B194 /* NSString+Process.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Process.m"; sourceTree = "<group>"; };
 		BBB608E91BEE4E3A00A9B194 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		BBB608EA1BEE4E3A00A9B194 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		BBB608EC1BEE579C00A9B194 /* LookThroughCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookThroughCardViewController.h; sourceTree = "<group>"; };
+		BBB608ED1BEE579C00A9B194 /* LookThroughCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookThroughCardViewController.m; sourceTree = "<group>"; };
+		BBB97FA41BEE6FEB00CEBEB9 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		BBB97FA51BEE6FEB00CEBEB9 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		BBB97FA81BEE769800CEBEB9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		BBB97FA91BEE769800CEBEB9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		BBB97FAC1BEE7FBC00CEBEB9 /* EnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterViewController.h; sourceTree = "<group>"; };
+		BBB97FAD1BEE7FBC00CEBEB9 /* EnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterViewController.m; sourceTree = "<group>"; };
+		BBB97FAF1BEE871600CEBEB9 /* YQImagePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQImagePageViewController.h; sourceTree = "<group>"; };
+		BBB97FB01BEE871600CEBEB9 /* YQImagePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQImagePageViewController.m; sourceTree = "<group>"; };
+		BBB97FB21BEE876B00CEBEB9 /* UIView+BGTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BGTouchView.h"; sourceTree = "<group>"; };
+		BBB97FB31BEE876B00CEBEB9 /* UIView+BGTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BGTouchView.m"; sourceTree = "<group>"; };
+		BBB97FB61BEE881000CEBEB9 /* YQNotificationPoster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQNotificationPoster.h; sourceTree = "<group>"; };
+		BBB97FB71BEE881000CEBEB9 /* YQNotificationPoster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQNotificationPoster.m; sourceTree = "<group>"; };
+		BBB97FB91BEE8A4C00CEBEB9 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		BBB97FBB1BEE8A8000CEBEB9 /* HomeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScene.h; sourceTree = "<group>"; };
+		BBB97FBC1BEE8A8000CEBEB9 /* HomeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScene.m; sourceTree = "<group>"; };
+		BBB97FBE1BEE912900CEBEB9 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		BBB97FBF1BEE912900CEBEB9 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB97FBA1BEE8A4C00CEBEB9 /* SpriteKit.framework in Frameworks */,
 				BB135D971BEDEB7D00D50236 /* AssetsLibrary.framework in Frameworks */,
 				BB135D941BEDEB6800D50236 /* opencv2.framework in Frameworks */,
 			);
@@ -164,6 +194,9 @@
 		BB135D541BEDEB4300D50236 = {
 			isa = PBXGroup;
 			children = (
+				BBB97FB51BEE87EB00CEBEB9 /* Notification */,
+				BBB97FAB1BEE7E4000CEBEB9 /* Enter */,
+				BBB97FA71BEE761400CEBEB9 /* Home */,
 				BBB608E81BEE4E0700A9B194 /* Network */,
 				BBB608E01BEE3C9000A9B194 /* PCHHeaders */,
 				BBB608BC1BEE2E9D00A9B194 /* Masonry */,
@@ -236,6 +269,7 @@
 		BB135D951BEDEB6C00D50236 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BBB97FB91BEE8A4C00CEBEB9 /* SpriteKit.framework */,
 				BB135D961BEDEB7D00D50236 /* AssetsLibrary.framework */,
 				BB135D931BEDEB6800D50236 /* opencv2.framework */,
 			);
@@ -283,12 +317,16 @@
 		BB135DB31BEDEC1000D50236 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				BBB97FB21BEE876B00CEBEB9 /* UIView+BGTouchView.h */,
+				BBB97FB31BEE876B00CEBEB9 /* UIView+BGTouchView.m */,
 				BBB608E21BEE3D7100A9B194 /* UIView+FrameAbout.h */,
 				BBB608E31BEE3D7100A9B194 /* UIView+FrameAbout.m */,
 				BB135DB41BEDEC2900D50236 /* UIImage+OpenCV.h */,
 				BB135DB51BEDEC2900D50236 /* UIImage+OpenCV.mm */,
 				BBB608E51BEE485300A9B194 /* NSString+Process.h */,
 				BBB608E61BEE485300A9B194 /* NSString+Process.m */,
+				BBB97FA41BEE6FEB00CEBEB9 /* UIImage+Resize.h */,
+				BBB97FA51BEE6FEB00CEBEB9 /* UIImage+Resize.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -296,8 +334,14 @@
 		BB135E061BEE271400D50236 /* Card */ = {
 			isa = PBXGroup;
 			children = (
+				BBB97FAF1BEE871600CEBEB9 /* YQImagePageViewController.h */,
+				BBB97FB01BEE871600CEBEB9 /* YQImagePageViewController.m */,
 				BB135E0A1BEE279D00D50236 /* CardViewController.h */,
 				BB135E0B1BEE279D00D50236 /* CardViewController.m */,
+				BBB608EC1BEE579C00A9B194 /* LookThroughCardViewController.h */,
+				BBB608ED1BEE579C00A9B194 /* LookThroughCardViewController.m */,
+				BBB97FBE1BEE912900CEBEB9 /* CardView.h */,
+				BBB97FBF1BEE912900CEBEB9 /* CardView.m */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -349,6 +393,35 @@
 				BBB608EA1BEE4E3A00A9B194 /* NetworkManager.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		BBB97FA71BEE761400CEBEB9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BBB97FA81BEE769800CEBEB9 /* HomeViewController.h */,
+				BBB97FA91BEE769800CEBEB9 /* HomeViewController.m */,
+				BBB97FBB1BEE8A8000CEBEB9 /* HomeScene.h */,
+				BBB97FBC1BEE8A8000CEBEB9 /* HomeScene.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BBB97FAB1BEE7E4000CEBEB9 /* Enter */ = {
+			isa = PBXGroup;
+			children = (
+				BBB97FAC1BEE7FBC00CEBEB9 /* EnterViewController.h */,
+				BBB97FAD1BEE7FBC00CEBEB9 /* EnterViewController.m */,
+			);
+			path = Enter;
+			sourceTree = "<group>";
+		};
+		BBB97FB51BEE87EB00CEBEB9 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				BBB97FB61BEE881000CEBEB9 /* YQNotificationPoster.h */,
+				BBB97FB71BEE881000CEBEB9 /* YQNotificationPoster.m */,
+			);
+			path = Notification;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,12 +560,18 @@
 				BB135E091BEE276C00D50236 /* BaseViewController.m in Sources */,
 				BBB608DD1BEE2E9D00A9B194 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				BB135D651BEDEB4300D50236 /* AppDelegate.m in Sources */,
+				BBB97FAA1BEE769800CEBEB9 /* HomeViewController.m in Sources */,
 				BBB608DB1BEE2E9D00A9B194 /* MASViewConstraint.m in Sources */,
+				BBB608EE1BEE579C00A9B194 /* LookThroughCardViewController.m in Sources */,
+				BBB97FBD1BEE8A8000CEBEB9 /* HomeScene.m in Sources */,
 				BB135DAD1BEDEBC300D50236 /* YTOperations.m in Sources */,
 				BBB608DE1BEE2E9D00A9B194 /* View+MASAdditions.m in Sources */,
+				BBB97FB81BEE881000CEBEB9 /* YQNotificationPoster.m in Sources */,
 				BB135DAC1BEDEBC300D50236 /* YTConfig.m in Sources */,
 				BBB608E71BEE485300A9B194 /* NSString+Process.m in Sources */,
+				BBB97FAE1BEE7FBC00CEBEB9 /* EnterViewController.m in Sources */,
 				BBB608DA1BEE2E9D00A9B194 /* MASViewAttribute.m in Sources */,
+				BBB97FA61BEE6FEB00CEBEB9 /* UIImage+Resize.m in Sources */,
 				BBB608D81BEE2E9D00A9B194 /* MASConstraintMaker.m in Sources */,
 				BB135DAA1BEDEBC300D50236 /* NSData+Base64.m in Sources */,
 				BB135DAE1BEDEBC300D50236 /* YTTagModel.m in Sources */,
@@ -501,7 +580,10 @@
 				BB135DAB1BEDEBC300D50236 /* TXQcloudFrSDK.m in Sources */,
 				BBB608DC1BEE2E9D00A9B194 /* NSArray+MASAdditions.m in Sources */,
 				BB135DA91BEDEBC300D50236 /* Auth.m in Sources */,
+				BBB97FB11BEE871600CEBEB9 /* YQImagePageViewController.m in Sources */,
+				BBB97FC01BEE912900CEBEB9 /* CardView.m in Sources */,
 				BBB608D91BEE2E9D00A9B194 /* MASLayoutConstraint.m in Sources */,
+				BBB97FB41BEE876B00CEBEB9 /* UIView+BGTouchView.m in Sources */,
 				BBB608D61BEE2E9D00A9B194 /* MASCompositeConstraint.m in Sources */,
 				BB135E0C1BEE279D00D50236 /* CardViewController.m in Sources */,
 				BB135DB21BEDEBFB00D50236 /* PickImageViewController.m in Sources */,

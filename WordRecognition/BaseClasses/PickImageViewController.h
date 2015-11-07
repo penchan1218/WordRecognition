@@ -10,7 +10,7 @@
 
 @interface PickImageViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIActionSheetDelegate>
 
-@property (nonatomic, strong) UIImage *editedImage;
+@property (nonatomic, strong) UIImage *originalImage;
 
 - (void)chooseImage;
 

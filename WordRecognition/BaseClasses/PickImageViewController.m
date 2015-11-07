@@ -50,7 +50,7 @@
 {
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
     picker.sourceType               = UIImagePickerControllerSourceTypeCamera;
-    picker.allowsEditing            = YES;
+//    picker.allowsEditing            = YES;
     picker.delegate                 = self;
     [self presentViewController:picker animated:YES completion:nil];
 }
@@ -63,10 +63,12 @@
         
     }];
     
-    UIImage *editedImage = [info objectForKey:UIImagePickerControllerEditedImage];
+    NSLog(@"%@", info);
+    
+    UIImage *editedImage = [info objectForKey:UIImagePickerControllerOriginalImage];
     
     if (editedImage) {
-        self.editedImage = editedImage;
+        self.originalImage = editedImage;
     }
 }
 
