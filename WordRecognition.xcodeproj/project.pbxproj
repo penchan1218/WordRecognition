@@ -25,6 +25,8 @@
 		BB135DAE1BEDEBC300D50236 /* YTTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135DA81BEDEBC300D50236 /* YTTagModel.m */; };
 		BB135DB21BEDEBFB00D50236 /* PickImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135DB11BEDEBFB00D50236 /* PickImageViewController.m */; };
 		BB135DB61BEDEC2900D50236 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB135DB51BEDEC2900D50236 /* UIImage+OpenCV.mm */; };
+		BB135E091BEE276C00D50236 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135E081BEE276C00D50236 /* BaseViewController.m */; };
+		BB135E0C1BEE279D00D50236 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135E0B1BEE279D00D50236 /* CardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +83,10 @@
 		BB135DB11BEDEBFB00D50236 /* PickImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickImageViewController.m; sourceTree = "<group>"; };
 		BB135DB41BEDEC2900D50236 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		BB135DB51BEDEC2900D50236 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		BB135E071BEE276C00D50236 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BB135E081BEE276C00D50236 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BB135E0A1BEE279D00D50236 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		BB135E0B1BEE279D00D50236 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,7 @@
 		BB135D5F1BEDEB4300D50236 /* WordRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				BB135E061BEE271400D50236 /* Card */,
 				BB135DB31BEDEC1000D50236 /* Categories */,
 				BB135DAF1BEDEBD500D50236 /* BaseClasses */,
 				BB135D9A1BEDEBC300D50236 /* Youtu */,
@@ -219,6 +226,8 @@
 			children = (
 				BB135DB01BEDEBFB00D50236 /* PickImageViewController.h */,
 				BB135DB11BEDEBFB00D50236 /* PickImageViewController.m */,
+				BB135E071BEE276C00D50236 /* BaseViewController.h */,
+				BB135E081BEE276C00D50236 /* BaseViewController.m */,
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -230,6 +239,15 @@
 				BB135DB51BEDEC2900D50236 /* UIImage+OpenCV.mm */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		BB135E061BEE271400D50236 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				BB135E0A1BEE279D00D50236 /* CardViewController.h */,
+				BB135E0B1BEE279D00D50236 /* CardViewController.m */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB135D681BEDEB4300D50236 /* ViewController.m in Sources */,
+				BB135E091BEE276C00D50236 /* BaseViewController.m in Sources */,
 				BB135D651BEDEB4300D50236 /* AppDelegate.m in Sources */,
 				BB135DAD1BEDEBC300D50236 /* YTOperations.m in Sources */,
 				BB135DAC1BEDEBC300D50236 /* YTConfig.m in Sources */,
@@ -371,6 +390,7 @@
 				BB135D621BEDEB4300D50236 /* main.m in Sources */,
 				BB135DAB1BEDEBC300D50236 /* TXQcloudFrSDK.m in Sources */,
 				BB135DA91BEDEBC300D50236 /* Auth.m in Sources */,
+				BB135E0C1BEE279D00D50236 /* CardViewController.m in Sources */,
 				BB135DB21BEDEBFB00D50236 /* PickImageViewController.m in Sources */,
 				BB135DB61BEDEC2900D50236 /* UIImage+OpenCV.mm in Sources */,
 			);
@@ -610,6 +630,7 @@
 				BB135D8C1BEDEB4300D50236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB135D8D1BEDEB4300D50236 /* Build configuration list for PBXNativeTarget "WordRecognitionTests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +639,7 @@
 				BB135D8F1BEDEB4300D50236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB135D901BEDEB4300D50236 /* Build configuration list for PBXNativeTarget "WordRecognitionUITests" */ = {
 			isa = XCConfigurationList;
@@ -626,6 +648,7 @@
 				BB135D921BEDEB4300D50236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

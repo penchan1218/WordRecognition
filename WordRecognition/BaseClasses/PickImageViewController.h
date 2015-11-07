@@ -6,7 +6,7 @@
 //  Copyright © 2015年 陈颖鹏. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
 @interface PickImageViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIActionSheetDelegate>
 
