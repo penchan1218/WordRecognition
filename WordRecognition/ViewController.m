@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "CardViewController.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CardViewController *cardvc = [[CardViewController alloc] initWithName:@"汉字"];
+    [self addChildViewController:cardvc];
+    [self.view addSubview:cardvc.view];
+    [cardvc didMoveToParentViewController:self];
 }
 
 - (void)didReceiveMemoryWarning {

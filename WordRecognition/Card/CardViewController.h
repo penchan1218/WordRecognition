@@ -10,4 +10,20 @@
 
 @interface CardViewController : BaseViewController
 
+/**
+ *  初始化方法
+ *
+ *  @param name <#name description#>
+ *
+ *  @return <#return value description#>
+ */
+- (id)initWithName:(NSString *)name;
+
+@property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *pinyin;
+@property (nonatomic, copy) NSString *english;
+
+@property (nonatomic, weak) UIImageView *imgView_bg;
+@property (nonatomic, weak) UIImageView *imgView_staff;
+
 @end
