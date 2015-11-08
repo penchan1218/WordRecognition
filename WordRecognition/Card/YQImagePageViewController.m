@@ -9,7 +9,10 @@
 #import "YQImagePageViewController.h"
 #import "CardView.h"
 
+#import "YTOperations.h"
+
 #import "UIView+BGTouchView.h"
+#import "UIImage+Resize.h"
 //#import "YQNotificationPoster.h"
 
 #define MIN_ZOOM 1.0
@@ -61,8 +64,8 @@
 {
     [super viewWillAppear:animated];
 //    [YQNotificationPoster postNotification_fadeHideNaviBar_withObj:self];
-    self.navigationController.navigationBarHidden = YES;
-    self.toolBar.hidden = YES;
+    self.navigationController.navigationBarHidden = NO;
+    self.toolBar.hidden = NO;
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"icon_back"]
                                                                              style:UIBarButtonItemStylePlain
@@ -96,7 +99,7 @@
 
 - (void)handleNaviBar
 {
-    if (self.naviBarHide) {
+    if (!self.naviBarHide) {
 //        [YQNotificationPoster postNotification_fadeHideNaviBar_withObj:self];
         self.navigationController.navigationBarHidden = YES;
         self.toolBar.hidden = YES;
@@ -145,14 +148,14 @@
     
     [self scrollToPage:self.selectedIndex];
     
-    UIToolbar *toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-49, SCREEN_WIDTH, 49)];
-    [self.view addSubview:toolBar];
-    self.toolBar = toolBar;
+//    UIToolbar *toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, SCREEN_HEIGHT-49, SCREEN_WIDTH, 49)];
+//    [self.view addSubview:toolBar];
+//    self.toolBar = toolBar;
     
-    UIBarButtonItem *photosBtn = [[UIBarButtonItem alloc] initWithTitle:@"Photos" style:UIBarButtonItemStylePlain target:self action:@selector(photosAction)];
-    UIBarButtonItem *flexItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
-    UIBarButtonItem *trashBtn = [[UIBarButtonItem alloc] initWithTitle:@"Trash" style:UIBarButtonItemStylePlain target:self action:@selector(trashAction)];
-    [toolBar setItems:@[photosBtn, flexItem, trashBtn]];
+//    UIBarButtonItem *photosBtn = [[UIBarButtonItem alloc] initWithTitle:@"Photos" style:UIBarButtonItemStylePlain target:self action:@selector(photosAction)];
+//    UIBarButtonItem *flexItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+//    UIBarButtonItem *trashBtn = [[UIBarButtonItem alloc] initWithTitle:@"Trash" style:UIBarButtonItemStylePlain target:self action:@selector(trashAction)];
+//    [toolBar setItems:@[photosBtn, flexItem, trashBtn]];
 }
 
 - (void)photosAction
@@ -190,11 +193,18 @@
 
 - (void)startLoadingImages
 {
-    NSArray *names = @[@"山", @"瀑布"];
+    NSArray *names = @[@"card_res00", @"card_res01", @"card_res02", @"card_res03", @"card_res04", @"card_res05", @"card_res06"];
     for (NSInteger i = 0; i < MIN(names.count, self.numOfImages); i++) {
         CardView *card = self.cards[i];
         // load images
-        card.name = names[i];
+        UIImage *image = [UIImage imageNamed:names[i]];
+        card.imgView_staff.image = image;
+        [YTOperations identifyImage:[UIImage cutImage:image size:CGSizeMake(200, 200)] ok:^(NSArray *array, NSError *error) {
+            if (array.count > 0) {
+                YTTagModel *model = array[0];
+                card.name = model.tag_name;
+            }
+        }];
     }
 }
 

@@ -49,7 +49,7 @@
 {
     YQImagePageViewController *imagePageVC = [[YQImagePageViewController alloc] init];
     imagePageVC.selectedIndex = 0;
-    imagePageVC.numOfImages = 2;
+    imagePageVC.numOfImages = 7;
     [self.navigationController pushViewController:imagePageVC animated:YES];
 }
 
@@ -76,7 +76,7 @@
             }
         }];
         
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.25 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             cardvc.imgView_staff.image = self.originalImage;
         });
     }

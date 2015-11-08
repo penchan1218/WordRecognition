@@ -21,6 +21,10 @@ static NSString * const YQDidReceiveDPushMessage    = @"YQDidReceiveDPushMessage
 
 static NSString * const YQDidReceiveRemoteMessage   = @"YQDidReceiveRemoteMessage";
 
+static NSString * const ShowLookingForCard = @"ShowLookingForCard";
+
+//static NSString * const ShouldShowCard = @"";
+
 @interface YQNotificationPoster : NSObject
 
 /**
@@ -50,5 +54,7 @@ static NSString * const YQDidReceiveRemoteMessage   = @"YQDidReceiveRemoteMessag
  *  @param obj 持有要显示的navBar的vc
  */
 + (void)postNotification_fadeShowNaviBar_withObj:(UIViewController *)obj;
+
++ (void)postNotification_showLookingForCard:(NSString *)cardImageName;
 
 @end

@@ -169,7 +169,7 @@
     }
     if (self.name.length > 1) {
         NSString *leftParts = [self.name substringToIndex:self.name.length/2];
-        NSString *rightParts = [self.name substringFromIndex:self.name.length/2];
+        NSString *rightParts = [self.name substringFromIndex:(self.name.length+1)/2];
         
         UILabel *nextLabel = middleWord?:nil;
         for (NSInteger i = leftParts.length-1; i >= 0; i--) {

@@ -52,4 +52,11 @@
     }];
 }
 
++ (void)postNotification_showLookingForCard:(NSString *)cardImageName
+{
+    [[NSNotificationCenter defaultCenter] postNotificationName:ShowLookingForCard object:NSDictionaryOfVariableBindings(cardImageName)];
+}
+
+
+
 @end

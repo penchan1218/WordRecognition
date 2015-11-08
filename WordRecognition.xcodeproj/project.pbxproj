@@ -27,6 +27,27 @@
 		BB135DB61BEDEC2900D50236 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB135DB51BEDEC2900D50236 /* UIImage+OpenCV.mm */; };
 		BB135E091BEE276C00D50236 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135E081BEE276C00D50236 /* BaseViewController.m */; };
 		BB135E0C1BEE279D00D50236 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135E0B1BEE279D00D50236 /* CardViewController.m */; };
+		BB524AFA1BEF17700059E120 /* card_res00.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF31BEF17700059E120 /* card_res00.png */; };
+		BB524AFB1BEF17700059E120 /* card_res01.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF41BEF17700059E120 /* card_res01.png */; };
+		BB524AFC1BEF17700059E120 /* card_res02.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF51BEF17700059E120 /* card_res02.png */; };
+		BB524AFD1BEF17700059E120 /* card_res03.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF61BEF17700059E120 /* card_res03.png */; };
+		BB524AFE1BEF17700059E120 /* card_res04.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF71BEF17700059E120 /* card_res04.png */; };
+		BB524AFF1BEF17700059E120 /* card_res05.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF81BEF17700059E120 /* card_res05.png */; };
+		BB524B001BEF17700059E120 /* card_res06.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF91BEF17700059E120 /* card_res06.png */; };
+		BB5E85B21BEEC6BC00049AF1 /* LookforView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E85B11BEEC6BC00049AF1 /* LookforView.m */; };
+		BB5E85B81BEED7F500049AF1 /* enterhome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5E85B41BEED7F500049AF1 /* enterhome.mp3 */; };
+		BB5E85B91BEED7F500049AF1 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5E85B51BEED7F500049AF1 /* fail.mp3 */; };
+		BB5E85BA1BEED7F500049AF1 /* owngoods.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5E85B61BEED7F500049AF1 /* owngoods.mp3 */; };
+		BB5E85BB1BEED7F500049AF1 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5E85B71BEED7F500049AF1 /* success.mp3 */; };
+		BB5E85BE1BEEEFD300049AF1 /* MatchResultScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E85BD1BEEEFD300049AF1 /* MatchResultScene.m */; };
+		BB5E85C01BEF023800049AF1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5E85BF1BEF023800049AF1 /* AudioToolbox.framework */; };
+		BB5E85C21BEF024100049AF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5E85C11BEF024100049AF1 /* AVFoundation.framework */; };
+		BB5E85C41BEF024D00049AF1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5E85C31BEF024D00049AF1 /* SystemConfiguration.framework */; };
+		BB5E85C61BEF025600049AF1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5E85C51BEF025600049AF1 /* Security.framework */; };
+		BB5E85C81BEF025C00049AF1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5E85C71BEF025C00049AF1 /* CoreTelephony.framework */; };
+		BB5E85CA1BEF026A00049AF1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5E85C91BEF026A00049AF1 /* CoreLocation.framework */; };
+		BB5E85CC1BEF027400049AF1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5E85CB1BEF027400049AF1 /* OpenGLES.framework */; };
+		BB5E85CE1BEF027A00049AF1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5E85CD1BEF027A00049AF1 /* CoreText.framework */; };
 		BBB608D61BEE2E9D00A9B194 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB608BE1BEE2E9D00A9B194 /* MASCompositeConstraint.m */; };
 		BBB608D71BEE2E9D00A9B194 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB608C11BEE2E9D00A9B194 /* MASConstraint.m */; };
 		BBB608D81BEE2E9D00A9B194 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB608C31BEE2E9D00A9B194 /* MASConstraintMaker.m */; };
@@ -110,6 +131,30 @@
 		BB135E081BEE276C00D50236 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BB135E0A1BEE279D00D50236 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
 		BB135E0B1BEE279D00D50236 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		BB524AF31BEF17700059E120 /* card_res00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res00.png; sourceTree = "<group>"; };
+		BB524AF41BEF17700059E120 /* card_res01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res01.png; sourceTree = "<group>"; };
+		BB524AF51BEF17700059E120 /* card_res02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res02.png; sourceTree = "<group>"; };
+		BB524AF61BEF17700059E120 /* card_res03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res03.png; sourceTree = "<group>"; };
+		BB524AF71BEF17700059E120 /* card_res04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res04.png; sourceTree = "<group>"; };
+		BB524AF81BEF17700059E120 /* card_res05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res05.png; sourceTree = "<group>"; };
+		BB524AF91BEF17700059E120 /* card_res06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res06.png; sourceTree = "<group>"; };
+		BB5E85B01BEEC6BC00049AF1 /* LookforView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookforView.h; sourceTree = "<group>"; };
+		BB5E85B11BEEC6BC00049AF1 /* LookforView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookforView.m; sourceTree = "<group>"; };
+		BB5E85B41BEED7F500049AF1 /* enterhome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enterhome.mp3; sourceTree = "<group>"; };
+		BB5E85B51BEED7F500049AF1 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fail.mp3; sourceTree = "<group>"; };
+		BB5E85B61BEED7F500049AF1 /* owngoods.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = owngoods.mp3; sourceTree = "<group>"; };
+		BB5E85B71BEED7F500049AF1 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		BB5E85BC1BEEEFD300049AF1 /* MatchResultScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchResultScene.h; sourceTree = "<group>"; };
+		BB5E85BD1BEEEFD300049AF1 /* MatchResultScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchResultScene.m; sourceTree = "<group>"; };
+		BB5E85BF1BEF023800049AF1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BB5E85C11BEF024100049AF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BB5E85C31BEF024D00049AF1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BB5E85C51BEF025600049AF1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BB5E85C71BEF025C00049AF1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BB5E85C91BEF026A00049AF1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB5E85CB1BEF027400049AF1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BB5E85CD1BEF027A00049AF1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BB5E85CF1BEF02A600049AF1 /* libBDVoiceRecognitionClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBDVoiceRecognitionClient.a; path = "../../Downloads/Baidu-Voice-SDK-iOS-1.6.2/libBDVoiceRecognitionClient/libBDVoiceRecognitionClient.a"; sourceTree = "<group>"; };
 		BBB608BD1BEE2E9D00A9B194 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		BBB608BE1BEE2E9D00A9B194 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		BBB608BF1BEE2E9D00A9B194 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -168,6 +213,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5E85CE1BEF027A00049AF1 /* CoreText.framework in Frameworks */,
+				BB5E85CC1BEF027400049AF1 /* OpenGLES.framework in Frameworks */,
+				BB5E85CA1BEF026A00049AF1 /* CoreLocation.framework in Frameworks */,
+				BB5E85C81BEF025C00049AF1 /* CoreTelephony.framework in Frameworks */,
+				BB5E85C61BEF025600049AF1 /* Security.framework in Frameworks */,
+				BB5E85C41BEF024D00049AF1 /* SystemConfiguration.framework in Frameworks */,
+				BB5E85C21BEF024100049AF1 /* AVFoundation.framework in Frameworks */,
+				BB5E85C01BEF023800049AF1 /* AudioToolbox.framework in Frameworks */,
 				BBB97FBA1BEE8A4C00CEBEB9 /* SpriteKit.framework in Frameworks */,
 				BB135D971BEDEB7D00D50236 /* AssetsLibrary.framework in Frameworks */,
 				BB135D941BEDEB6800D50236 /* opencv2.framework in Frameworks */,
@@ -194,6 +247,9 @@
 		BB135D541BEDEB4300D50236 = {
 			isa = PBXGroup;
 			children = (
+				BB524AF21BEF17700059E120 /* CardResource */,
+				BB5E85D11BEF036700049AF1 /* BaiduSDK */,
+				BB5E85B31BEED7F400049AF1 /* audiofiles */,
 				BBB97FB51BEE87EB00CEBEB9 /* Notification */,
 				BBB97FAB1BEE7E4000CEBEB9 /* Enter */,
 				BBB97FA71BEE761400CEBEB9 /* Home */,
@@ -269,6 +325,15 @@
 		BB135D951BEDEB6C00D50236 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB5E85CF1BEF02A600049AF1 /* libBDVoiceRecognitionClient.a */,
+				BB5E85CD1BEF027A00049AF1 /* CoreText.framework */,
+				BB5E85CB1BEF027400049AF1 /* OpenGLES.framework */,
+				BB5E85C91BEF026A00049AF1 /* CoreLocation.framework */,
+				BB5E85C71BEF025C00049AF1 /* CoreTelephony.framework */,
+				BB5E85C51BEF025600049AF1 /* Security.framework */,
+				BB5E85C31BEF024D00049AF1 /* SystemConfiguration.framework */,
+				BB5E85C11BEF024100049AF1 /* AVFoundation.framework */,
+				BB5E85BF1BEF023800049AF1 /* AudioToolbox.framework */,
 				BBB97FB91BEE8A4C00CEBEB9 /* SpriteKit.framework */,
 				BB135D961BEDEB7D00D50236 /* AssetsLibrary.framework */,
 				BB135D931BEDEB6800D50236 /* opencv2.framework */,
@@ -346,6 +411,38 @@
 			path = Card;
 			sourceTree = "<group>";
 		};
+		BB524AF21BEF17700059E120 /* CardResource */ = {
+			isa = PBXGroup;
+			children = (
+				BB524AF31BEF17700059E120 /* card_res00.png */,
+				BB524AF41BEF17700059E120 /* card_res01.png */,
+				BB524AF51BEF17700059E120 /* card_res02.png */,
+				BB524AF61BEF17700059E120 /* card_res03.png */,
+				BB524AF71BEF17700059E120 /* card_res04.png */,
+				BB524AF81BEF17700059E120 /* card_res05.png */,
+				BB524AF91BEF17700059E120 /* card_res06.png */,
+			);
+			path = CardResource;
+			sourceTree = "<group>";
+		};
+		BB5E85B31BEED7F400049AF1 /* audiofiles */ = {
+			isa = PBXGroup;
+			children = (
+				BB5E85B41BEED7F500049AF1 /* enterhome.mp3 */,
+				BB5E85B51BEED7F500049AF1 /* fail.mp3 */,
+				BB5E85B61BEED7F500049AF1 /* owngoods.mp3 */,
+				BB5E85B71BEED7F500049AF1 /* success.mp3 */,
+			);
+			path = audiofiles;
+			sourceTree = "<group>";
+		};
+		BB5E85D11BEF036700049AF1 /* BaiduSDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaiduSDK;
+			sourceTree = "<group>";
+		};
 		BBB608BC1BEE2E9D00A9B194 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -402,6 +499,10 @@
 				BBB97FA91BEE769800CEBEB9 /* HomeViewController.m */,
 				BBB97FBB1BEE8A8000CEBEB9 /* HomeScene.h */,
 				BBB97FBC1BEE8A8000CEBEB9 /* HomeScene.m */,
+				BB5E85B01BEEC6BC00049AF1 /* LookforView.h */,
+				BB5E85B11BEEC6BC00049AF1 /* LookforView.m */,
+				BB5E85BC1BEEEFD300049AF1 /* MatchResultScene.h */,
+				BB5E85BD1BEEEFD300049AF1 /* MatchResultScene.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -491,6 +592,7 @@
 				TargetAttributes = {
 					BB135D5C1BEDEB4300D50236 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = T97FFXXX75;
 					};
 					BB135D751BEDEB4300D50236 = {
 						CreatedOnToolsVersion = 7.1;
@@ -527,8 +629,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB524AFE1BEF17700059E120 /* card_res04.png in Resources */,
+				BB524AFC1BEF17700059E120 /* card_res02.png in Resources */,
+				BB524AFF1BEF17700059E120 /* card_res05.png in Resources */,
+				BB524AFB1BEF17700059E120 /* card_res01.png in Resources */,
+				BB5E85BA1BEED7F500049AF1 /* owngoods.mp3 in Resources */,
 				BB135D701BEDEB4300D50236 /* LaunchScreen.storyboard in Resources */,
+				BB5E85B91BEED7F500049AF1 /* fail.mp3 in Resources */,
+				BB524AFD1BEF17700059E120 /* card_res03.png in Resources */,
+				BB524B001BEF17700059E120 /* card_res06.png in Resources */,
 				BB135D6D1BEDEB4300D50236 /* Assets.xcassets in Resources */,
+				BB524AFA1BEF17700059E120 /* card_res00.png in Resources */,
+				BB5E85BB1BEED7F500049AF1 /* success.mp3 in Resources */,
+				BB5E85B81BEED7F500049AF1 /* enterhome.mp3 in Resources */,
 				BB135D6B1BEDEB4300D50236 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,6 +673,7 @@
 				BB135E091BEE276C00D50236 /* BaseViewController.m in Sources */,
 				BBB608DD1BEE2E9D00A9B194 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				BB135D651BEDEB4300D50236 /* AppDelegate.m in Sources */,
+				BB5E85BE1BEEEFD300049AF1 /* MatchResultScene.m in Sources */,
 				BBB97FAA1BEE769800CEBEB9 /* HomeViewController.m in Sources */,
 				BBB608DB1BEE2E9D00A9B194 /* MASViewConstraint.m in Sources */,
 				BBB608EE1BEE579C00A9B194 /* LookThroughCardViewController.m in Sources */,
@@ -585,6 +699,7 @@
 				BBB608D91BEE2E9D00A9B194 /* MASLayoutConstraint.m in Sources */,
 				BBB97FB41BEE876B00CEBEB9 /* UIView+BGTouchView.m in Sources */,
 				BBB608D61BEE2E9D00A9B194 /* MASCompositeConstraint.m in Sources */,
+				BB5E85B21BEEC6BC00049AF1 /* LookforView.m in Sources */,
 				BB135E0C1BEE279D00D50236 /* CardViewController.m in Sources */,
 				BB135DB21BEDEBFB00D50236 /* PickImageViewController.m in Sources */,
 				BB135DB61BEDEC2900D50236 /* UIImage+OpenCV.mm in Sources */,
@@ -728,6 +843,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -736,6 +853,10 @@
 				INFOPLIST_FILE = WordRecognition/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduSDK/libBDVoiceRecognitionClient",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hustunique.WordRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -746,6 +867,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -754,6 +877,10 @@
 				INFOPLIST_FILE = WordRecognition/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BaiduSDK/libBDVoiceRecognitionClient",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hustunique.WordRecognition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

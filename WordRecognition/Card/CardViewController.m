@@ -67,6 +67,18 @@
         make.centerX.equalTo(imgView_staff.superview);
         make.size.mas_equalTo(CGSizeMake(300, 400));
     }];
+    
+    UIButton *btn_back = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 30*109/65, 30)];
+    btn_back.alpha = 0.5;
+    [btn_back setImage:[UIImage imageNamed:@"icon_fanhui"] forState:UIControlStateNormal];
+    [btn_back addTarget:self action:@selector(backAction) forControlEvents:UIControlEventTouchUpInside];
+    btn_back._leftTop = CGPointMake(30, 30);
+    [self.view addSubview:btn_back];
+}
+
+- (void)backAction
+{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (UILabel *)newLabelOfFontSize:(CGFloat)fontSize
@@ -185,7 +197,7 @@
     }
     if (self.name.length > 1) {
         NSString *leftParts = [self.name substringToIndex:self.name.length/2];
-        NSString *rightParts = [self.name substringFromIndex:self.name.length/2];
+        NSString *rightParts = [self.name substringFromIndex:(self.name.length+1)/2];
         
         UILabel *nextLabel = middleWord?:nil;
         for (NSInteger i = leftParts.length-1; i >= 0; i--) {

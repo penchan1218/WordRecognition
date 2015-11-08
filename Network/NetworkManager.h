@@ -27,4 +27,6 @@
  */
 + (NSURLSessionDataTask *)translate2English:(NSString *)word ok:(void (^)(NSString *english, NSError *error))block;
 
++ (void)getAccessTokenFromBaidu:(void (^)(NSString *accessToken, NSError *error))block;
+
 @end

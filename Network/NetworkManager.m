@@ -12,6 +12,9 @@ static NSString * const YoudaoTranslateAPI = @"http://fanyi.youdao.com/openapi.d
 static NSString * const YoudaoAPIKey       = @"773991981";
 static NSString * const YoudaoKeyFrom      = @"WordRecognition";
 
+static NSString * const BaiduAPIKey    = @"TjVj1Spe9cFG4IGq717lMcSo";
+static NSString * const BaiduSecretKey = @"1TnVfPW5lRdp05QaNG3NGXhKUneqGk1L";
+
 @implementation NetworkManager
 
 + (NSURLSession *)sharedSession
@@ -54,6 +57,22 @@ static NSString * const YoudaoKeyFrom      = @"WordRecognition";
     }];
     [task resume];
     return task;
+}
+
++ (void)getAccessTokenFromBaidu:(void (^)(NSString *accessToken, NSError *error))block
+{
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=%@&client_secret=%@", BaiduAPIKey, BaiduSecretKey]];
+    
+    [[[self sharedSession] dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        if (data) {
+            NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+            NSString *access_token = dic[@"access_token"];
+            block(access_token, nil);
+        } else {
+            block(nil, error);
+        }
+        NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
+    }] resume];
 }
 
 @end
