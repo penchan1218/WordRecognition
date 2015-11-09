@@ -10,10 +10,13 @@
 #import "CardView.h"
 
 #import "YTOperations.h"
+#import "NetworkManager.h"
 
 #import "UIView+BGTouchView.h"
 #import "UIImage+Resize.h"
 //#import "YQNotificationPoster.h"
+
+@import AVFoundation;
 
 #define MIN_ZOOM 1.0
 #define MAX_ZOOM 2.0
@@ -29,6 +32,8 @@
 
 @property (nonatomic, strong) NSMutableArray *cards;
 @property (nonatomic, strong) NSMutableArray *scrollViews;
+
+@property (nonatomic, strong) AVAudioRecorder *audioRecorder;
 
 @property (nonatomic, assign) BOOL naviBarHide;
 
@@ -89,7 +94,37 @@
 
 - (void)editCard
 {
-    
+    // 录音识别
+//    if (!self.audioRecorder) {
+//        //配置Recorder，
+//        NSDictionary *recordSetting = [NSDictionary dictionaryWithObjectsAndKeys:
+//                                       [NSNumber numberWithInt:AVAudioQualityLow],AVEncoderAudioQualityKey,
+//                                       [NSNumber numberWithInt:16],AVEncoderBitRateKey,
+//                                       [NSNumber numberWithInt:1],AVNumberOfChannelsKey,
+//                                       [NSNumber numberWithFloat:8000],AVSampleRateKey,
+//                                       nil];
+//        //录音文件保存地址的URL
+//        NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/record.wav", [[NSBundle mainBundle] resourcePath]]];
+//        NSError *error = nil;
+//        self.audioRecorder = [[AVAudioRecorder alloc] initWithURL:url settings:recordSetting error:&error];
+//        
+//        if (error != nil) {
+//            NSLog(@"Init audioRecorder error: %@",error);
+//        }else{
+//            //准备就绪，等待录音，注意该方法会返回Boolean，最好做个成功判断，因为其失败的时候无任何错误信息抛出
+//            if ([self.audioRecorder prepareToRecord]) {
+//                NSLog(@"Prepare successful");
+//                [self.audioRecorder record];
+//            } else {
+//                [self.audioRecorder stop];
+//                
+//            }
+//        }
+//    } else {
+//        [self.audioRecorder stop];
+//        
+//        
+//    }
 }
 
 - (void)scrollToPage:(NSInteger)page
@@ -193,7 +228,7 @@
 
 - (void)startLoadingImages
 {
-    NSArray *names = @[@"card_res00", @"card_res01", @"card_res02", @"card_res03", @"card_res04", @"card_res05", @"card_res06"];
+    NSArray *names = @[@"card_res00.jpg", @"card_res01.jpg", @"card_res02.jpg", @"card_res03.jpg", @"card_res04.jpg", @"card_res05.jpg", @"card_res06.jpg"];
     for (NSInteger i = 0; i < MIN(names.count, self.numOfImages); i++) {
         CardView *card = self.cards[i];
         // load images

@@ -29,4 +29,6 @@
 
 + (void)getAccessTokenFromBaidu:(void (^)(NSString *accessToken, NSError *error))block;
 
++ (void)uploadRecordFromURL:(NSString *)url ok:(void (^)(NSString *match, NSError *error))block;
+
 @end

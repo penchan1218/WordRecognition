@@ -27,13 +27,13 @@
 		BB135DB61BEDEC2900D50236 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB135DB51BEDEC2900D50236 /* UIImage+OpenCV.mm */; };
 		BB135E091BEE276C00D50236 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135E081BEE276C00D50236 /* BaseViewController.m */; };
 		BB135E0C1BEE279D00D50236 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB135E0B1BEE279D00D50236 /* CardViewController.m */; };
-		BB524AFA1BEF17700059E120 /* card_res00.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF31BEF17700059E120 /* card_res00.png */; };
-		BB524AFB1BEF17700059E120 /* card_res01.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF41BEF17700059E120 /* card_res01.png */; };
-		BB524AFC1BEF17700059E120 /* card_res02.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF51BEF17700059E120 /* card_res02.png */; };
-		BB524AFD1BEF17700059E120 /* card_res03.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF61BEF17700059E120 /* card_res03.png */; };
-		BB524AFE1BEF17700059E120 /* card_res04.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF71BEF17700059E120 /* card_res04.png */; };
-		BB524AFF1BEF17700059E120 /* card_res05.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF81BEF17700059E120 /* card_res05.png */; };
-		BB524B001BEF17700059E120 /* card_res06.png in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF91BEF17700059E120 /* card_res06.png */; };
+		BB524AFA1BEF17700059E120 /* card_res00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF31BEF17700059E120 /* card_res00.jpg */; };
+		BB524AFB1BEF17700059E120 /* card_res01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF41BEF17700059E120 /* card_res01.jpg */; };
+		BB524AFC1BEF17700059E120 /* card_res02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF51BEF17700059E120 /* card_res02.jpg */; };
+		BB524AFD1BEF17700059E120 /* card_res03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF61BEF17700059E120 /* card_res03.jpg */; };
+		BB524AFE1BEF17700059E120 /* card_res04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF71BEF17700059E120 /* card_res04.jpg */; };
+		BB524AFF1BEF17700059E120 /* card_res05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF81BEF17700059E120 /* card_res05.jpg */; };
+		BB524B001BEF17700059E120 /* card_res06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB524AF91BEF17700059E120 /* card_res06.jpg */; };
 		BB5E85B21BEEC6BC00049AF1 /* LookforView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5E85B11BEEC6BC00049AF1 /* LookforView.m */; };
 		BB5E85B81BEED7F500049AF1 /* enterhome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5E85B41BEED7F500049AF1 /* enterhome.mp3 */; };
 		BB5E85B91BEED7F500049AF1 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB5E85B51BEED7F500049AF1 /* fail.mp3 */; };
@@ -131,13 +131,13 @@
 		BB135E081BEE276C00D50236 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BB135E0A1BEE279D00D50236 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
 		BB135E0B1BEE279D00D50236 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
-		BB524AF31BEF17700059E120 /* card_res00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res00.png; sourceTree = "<group>"; };
-		BB524AF41BEF17700059E120 /* card_res01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res01.png; sourceTree = "<group>"; };
-		BB524AF51BEF17700059E120 /* card_res02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res02.png; sourceTree = "<group>"; };
-		BB524AF61BEF17700059E120 /* card_res03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res03.png; sourceTree = "<group>"; };
-		BB524AF71BEF17700059E120 /* card_res04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res04.png; sourceTree = "<group>"; };
-		BB524AF81BEF17700059E120 /* card_res05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res05.png; sourceTree = "<group>"; };
-		BB524AF91BEF17700059E120 /* card_res06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card_res06.png; sourceTree = "<group>"; };
+		BB524AF31BEF17700059E120 /* card_res00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card_res00.jpg; sourceTree = "<group>"; };
+		BB524AF41BEF17700059E120 /* card_res01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card_res01.jpg; sourceTree = "<group>"; };
+		BB524AF51BEF17700059E120 /* card_res02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card_res02.jpg; sourceTree = "<group>"; };
+		BB524AF61BEF17700059E120 /* card_res03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card_res03.jpg; sourceTree = "<group>"; };
+		BB524AF71BEF17700059E120 /* card_res04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card_res04.jpg; sourceTree = "<group>"; };
+		BB524AF81BEF17700059E120 /* card_res05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card_res05.jpg; sourceTree = "<group>"; };
+		BB524AF91BEF17700059E120 /* card_res06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card_res06.jpg; sourceTree = "<group>"; };
 		BB5E85B01BEEC6BC00049AF1 /* LookforView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LookforView.h; sourceTree = "<group>"; };
 		BB5E85B11BEEC6BC00049AF1 /* LookforView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LookforView.m; sourceTree = "<group>"; };
 		BB5E85B41BEED7F500049AF1 /* enterhome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enterhome.mp3; sourceTree = "<group>"; };
@@ -414,13 +414,13 @@
 		BB524AF21BEF17700059E120 /* CardResource */ = {
 			isa = PBXGroup;
 			children = (
-				BB524AF31BEF17700059E120 /* card_res00.png */,
-				BB524AF41BEF17700059E120 /* card_res01.png */,
-				BB524AF51BEF17700059E120 /* card_res02.png */,
-				BB524AF61BEF17700059E120 /* card_res03.png */,
-				BB524AF71BEF17700059E120 /* card_res04.png */,
-				BB524AF81BEF17700059E120 /* card_res05.png */,
-				BB524AF91BEF17700059E120 /* card_res06.png */,
+				BB524AF31BEF17700059E120 /* card_res00.jpg */,
+				BB524AF41BEF17700059E120 /* card_res01.jpg */,
+				BB524AF51BEF17700059E120 /* card_res02.jpg */,
+				BB524AF61BEF17700059E120 /* card_res03.jpg */,
+				BB524AF71BEF17700059E120 /* card_res04.jpg */,
+				BB524AF81BEF17700059E120 /* card_res05.jpg */,
+				BB524AF91BEF17700059E120 /* card_res06.jpg */,
 			);
 			path = CardResource;
 			sourceTree = "<group>";
@@ -629,17 +629,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB524AFE1BEF17700059E120 /* card_res04.png in Resources */,
-				BB524AFC1BEF17700059E120 /* card_res02.png in Resources */,
-				BB524AFF1BEF17700059E120 /* card_res05.png in Resources */,
-				BB524AFB1BEF17700059E120 /* card_res01.png in Resources */,
+				BB524AFE1BEF17700059E120 /* card_res04.jpg in Resources */,
+				BB524AFC1BEF17700059E120 /* card_res02.jpg in Resources */,
+				BB524AFF1BEF17700059E120 /* card_res05.jpg in Resources */,
+				BB524AFB1BEF17700059E120 /* card_res01.jpg in Resources */,
 				BB5E85BA1BEED7F500049AF1 /* owngoods.mp3 in Resources */,
 				BB135D701BEDEB4300D50236 /* LaunchScreen.storyboard in Resources */,
 				BB5E85B91BEED7F500049AF1 /* fail.mp3 in Resources */,
-				BB524AFD1BEF17700059E120 /* card_res03.png in Resources */,
-				BB524B001BEF17700059E120 /* card_res06.png in Resources */,
+				BB524AFD1BEF17700059E120 /* card_res03.jpg in Resources */,
+				BB524B001BEF17700059E120 /* card_res06.jpg in Resources */,
 				BB135D6D1BEDEB4300D50236 /* Assets.xcassets in Resources */,
-				BB524AFA1BEF17700059E120 /* card_res00.png in Resources */,
+				BB524AFA1BEF17700059E120 /* card_res00.jpg in Resources */,
 				BB5E85BB1BEED7F500049AF1 /* success.mp3 in Resources */,
 				BB5E85B81BEED7F500049AF1 /* enterhome.mp3 in Resources */,
 				BB135D6B1BEDEB4300D50236 /* Main.storyboard in Resources */,

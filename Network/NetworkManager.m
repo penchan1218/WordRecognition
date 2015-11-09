@@ -15,6 +15,8 @@ static NSString * const YoudaoKeyFrom      = @"WordRecognition";
 static NSString * const BaiduAPIKey    = @"TjVj1Spe9cFG4IGq717lMcSo";
 static NSString * const BaiduSecretKey = @"1TnVfPW5lRdp05QaNG3NGXhKUneqGk1L";
 
+static NSString *__access_token = nil;
+
 @implementation NetworkManager
 
 + (NSURLSession *)sharedSession
@@ -67,12 +69,24 @@ static NSString * const BaiduSecretKey = @"1TnVfPW5lRdp05QaNG3NGXhKUneqGk1L";
         if (data) {
             NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
             NSString *access_token = dic[@"access_token"];
+            __access_token = access_token;
             block(access_token, nil);
         } else {
             block(nil, error);
         }
         NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
     }] resume];
+}
+
++ (void)uploadRecordFromURL:(NSString *)url ok:(void (^)(NSString *match, NSError *error))block
+{
+    
+    NSDictionary *dic = @{@"format": @"wav",
+                          @"rate": @(8000),
+                          @"channel": @(1),
+                          @"token": __access_token?:[NSString string],
+                          @"cuid": @"WordRecognition",
+                          @"len": @(4096)};
 }
 
 @end
